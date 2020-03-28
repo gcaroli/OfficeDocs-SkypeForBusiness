@@ -295,7 +295,7 @@ The latest publicly available version of the Teams PowerShell module (currently 
 7. Run the following to verify that the latest version of the Teams PowerShell module from the PowerShell Test Gallery is successfully installed:
 
     ```PowerShell
-    Get-Module -Name MicrosoftTeams
+    Get-InstalledModule -Name MicrosoftTeams
     ```
 
 #### Update to the latest version of the Teams PowerShell module from the PowerShell Test Gallery
@@ -313,7 +313,7 @@ If you already installed the Teams PowerShell module from the PowerShell Test Ga
 4. Run the following to verify that the latest version of the Teams PowerShell module from the PowerShell Test Gallery is successfully installed:
 
     ```PowerShell
-    Get-Module -Name MicrosoftTeams
+    Get-InstalledModule -Name MicrosoftTeams
     ```
 
 ## Related topics
